@@ -26,11 +26,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response1.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,6 +54,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -60,11 +68,112 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api_2#1">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8003/hello" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8003" />
+          <option name="urlPath" value="/hello" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.rest-api_3#1">
     <configuration name="rest-api_2#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_3#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="soft-news [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="soft-news [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -82,8 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api_2#1" />
+        <item itemvalue="HTTP Request.rest-api_3#1" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Maven.soft-news [install]" />
+        <item itemvalue="Maven.soft-news [clean]" />
+        <item itemvalue="HTTP Request.rest-api_2#1" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605355160195</updated>
-      <workItem from="1605355161497" duration="2112000" />
+      <workItem from="1605355161497" duration="3443000" />
     </task>
     <servers />
   </component>
@@ -112,38 +224,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1605357247726" />
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1605358675376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605358675376" />
+    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1605358675375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605358675375" />
+    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1605358675375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605358675375" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1605358675375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.1.bottom" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605358675375" />
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1605358675376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.1.center" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605358675376" />
+    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1605358675376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.1.left" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605358675376" />
+    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1605358675376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
-    <state width="1493" height="338" key="GridCell.Tab.1.right" timestamp="1605357436199">
+    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605358675376" />
+    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1605358675376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605357436199" />
+    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605358675376" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1605358381500">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605358381500" />
     <state x="178" y="0" key="new project wizard" timestamp="1605356596307">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
