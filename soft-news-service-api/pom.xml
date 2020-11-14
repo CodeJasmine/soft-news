@@ -58,6 +58,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
+<!--        引入model-->
+        <dependency>
+            <groupId>com.soft1851</groupId>
+            <artifactId>soft-news-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
