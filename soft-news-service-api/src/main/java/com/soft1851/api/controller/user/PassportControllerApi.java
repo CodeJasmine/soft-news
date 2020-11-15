@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
  * @date 2020/11/15 22:24
  */
 @Api(value = "用户注册登录",tags = {"用户注册登录的controller"})
-@RequestMapping("passport")
+@RequestMapping("/passport")
 public interface PassportControllerApi {
     /**
      * 发送短信
