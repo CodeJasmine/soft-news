@@ -1,6 +1,7 @@
 package com.soft1851.user.service;
 
 import com.soft1851.pojo.AppUser;
+import com.soft1851.pojo.bo.UpdateUserInfoBO;
 
 /**
  * @author wususu
@@ -22,4 +23,13 @@ public interface UserService {
      * @return
      */
     AppUser createUser(String mobile);
+
+    /**
+     * 根据用户主键获得用户信息
+     * @param userId 用户Id
+     * @return
+     */
+    public AppUser getUser(String userId);
+
+    void updateUserInfo(UpdateUserInfoBO updateUserInfoBO);
 }
