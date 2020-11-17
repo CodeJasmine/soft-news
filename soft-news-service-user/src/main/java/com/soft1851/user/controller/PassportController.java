@@ -18,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
@@ -90,11 +91,17 @@ public class PassportController extends BaseController implements PassportContro
             //保存token到redis
             String uToken = UUID.randomUUID().toString();
             redis.set(REDIS_USER_TOKEN + ":" + user.getId(), uToken);
+            System.out.println("token:");
+            System.out.println(uToken);
             redis.set(REDIS_USER_INFO + ":" + user.getId(), JsonUtil.objectToJson(user));
-
+            System.out.println("要存储的cook信息");
+            System.out.println("utoken"+ uToken);
+            System.out.println("uid"+ user.getId());
+            System.out.println("要存储的cook信息");
             //保存用户id和token到cookie中
             setCookie(request, response, "utoken", uToken, COOKIE_MONTH);
             setCookie(request, response, "uid", user.getId(), COOKIE_MONTH);
+
         }
         // 4. 用户登录或注册成功以后，需要删除redis中的短信验证码
         redis.del(MOBILE_SMSCODE + ":" + mobile);
@@ -102,5 +109,17 @@ public class PassportController extends BaseController implements PassportContro
         // 5. 返回用户状态
         return GraceResult.ok(userActiveStatus);
     }
+
+    @Override
+    public GraceResult logout(HttpServletRequest request, HttpServletResponse response, String userId) {
+        Cookie[] cookies = request.getCookies();
+        System.out.println(cookies);
+        redis.del(REDIS_USER_TOKEN + ":" + userId);
+
+        setCookie(request, response, "utoken", "", COOKIE_DELETE);
+        setCookie(request, response, "uid", "", COOKIE_DELETE);
+        return GraceResult.ok();
+    }
 }
+
 

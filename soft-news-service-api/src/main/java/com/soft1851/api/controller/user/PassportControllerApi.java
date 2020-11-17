@@ -16,7 +16,7 @@ import javax.validation.Valid;
  * @date 2020/11/15 22:24
  */
 @Api(value = "用户注册登录", tags = {"用户注册登录的controller"})
-@RequestMapping("/passport")
+@RequestMapping("passport")
 public interface PassportControllerApi {
     /**
      * 发送短信
@@ -30,18 +30,14 @@ public interface PassportControllerApi {
     GraceResult getCode(@RequestParam String mobile, HttpServletRequest request);
 
 
-    /**
-     *
-     * @param registLoginBO
-     * @param result
-     * @param request
-     * @param response
-     * @return
-     */
     @ApiOperation(value = "一键注册登录接口", notes = "一键注册登录接口", httpMethod = "POST")
     @PostMapping("/sign")
     GraceResult doSign(@RequestBody @Valid RegistLoginBO registLoginBO,
                        BindingResult result,
                        HttpServletRequest request,
                        HttpServletResponse response);
+
+    @PostMapping("/logout")
+    @ApiOperation(value = "用户退出登录", notes = "用户退出登录", httpMethod = "POST")
+    GraceResult logout(HttpServletRequest request, HttpServletResponse response, @RequestParam String userId);
 }
