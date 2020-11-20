@@ -14,6 +14,7 @@ D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Sid.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\IPv4Utils.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\IdWorker.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\JsonUtil.java
+D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewLevel.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Code.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\RedisOperator.java
@@ -29,5 +30,6 @@ D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FileUti
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Test.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\DateUtil.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\exception\MyCustomException.java
+D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\extend\AliImageReviewUtil.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Props.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\RandomCodeStrategy.java
