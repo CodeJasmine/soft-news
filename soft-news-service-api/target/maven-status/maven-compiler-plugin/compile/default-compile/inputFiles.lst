@@ -3,6 +3,7 @@ D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\conf
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\AdminMsgControllerApi.java
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\HelloControllerApi.java
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserTokenInterceptor.java
+D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\AdminTokenInterceptor.java
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\PassportInterceptor.java
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\CorsConfig.java
 D:\项目库\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserActiveInterceptor.java
