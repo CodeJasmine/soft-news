@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30d9bc33-eb42-4754-8201-7069d9033107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/GridConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/AdminMsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/AdminMsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="30d9bc33-eb42-4754-8201-7069d9033107" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,20 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="UserGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.mybatis.utils.UserGenerator" />
-      <module name="mybatis-generator-database" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.mybatis.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application (2)">
     <configuration name="soft-news [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -236,6 +216,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="soft-news-service-files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.files.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="soft-news-service-user" />
       <extension name="coverage">
@@ -251,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Maven.soft-news [install]" />
         <item itemvalue="Maven.soft-news [clean]" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.UserGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +272,7 @@
       <workItem from="1605796051596" duration="634000" />
       <workItem from="1605825633651" duration="2631000" />
       <workItem from="1605879652414" duration="8317000" />
-      <workItem from="1606143495918" duration="721000" />
+      <workItem from="1606143495918" duration="997000" />
     </task>
     <servers />
   </component>
