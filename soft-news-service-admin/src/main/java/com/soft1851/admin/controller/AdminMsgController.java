@@ -111,4 +111,9 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         PageGridResult result = adminUserService.queryAdminList(page, pageSize);
         return GraceResult.ok(result);
     }
+
+    @Override
+    public GraceResult adminLogout(String adminId, HttpServletRequest request, HttpServletResponse response) {
+        return null;
+    }
 }

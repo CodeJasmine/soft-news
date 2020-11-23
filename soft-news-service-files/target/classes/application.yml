@@ -26,7 +26,10 @@ spring:
     multipart:
       max-file-size: 512000   # 请求的文件大小限制为500kb
       max-request-size: 512000
-
+  data:
+    mongodb:
+#      uri: mongodb://root:root@120.26.177.51:27017
+      database: soft_news
 ############################################################
 #
 # fastdfs 的配置信息
