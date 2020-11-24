@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30d9bc33-eb42-4754-8201-7069d9033107" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/soft-news-service-article.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-model/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-service-article/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
     <configuration name="soft-news [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -231,26 +240,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="soft-news-service-user" />
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="soft-news-service-article" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.user.*" />
+          <option name="PATTERN" value="com.soft1851.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.user.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soft1851.article.ArticleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Maven.soft-news [install]" />
         <item itemvalue="Maven.soft-news [clean]" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +286,7 @@
       <workItem from="1606143495918" duration="5176000" />
       <workItem from="1606175917187" duration="4088000" />
       <workItem from="1606185663824" duration="6203000" />
-      <workItem from="1606223880198" duration="1690000" />
+      <workItem from="1606223880198" duration="2175000" />
     </task>
     <servers />
   </component>
@@ -309,38 +318,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605361167196" />
-    <state width="1493" height="331" key="GridCell.Tab.0.bottom" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.0.bottom" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.0.center" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.0.center" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.0.left" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.0.left" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.0.right" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.0.right" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.1.bottom" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.1.bottom" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.1.center" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.1.center" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.1.left" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.1.left" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
-    <state width="1493" height="331" key="GridCell.Tab.1.right" timestamp="1606225062047">
+    <state width="1493" height="331" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
+    <state width="1493" height="331" key="GridCell.Tab.1.right" timestamp="1606225731562">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606225062047" />
+    <state width="1493" height="331" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606225731562" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1605358381500">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -349,9 +358,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1605531803537" />
-    <state x="178" y="0" key="new project wizard" timestamp="1605880787802">
+    <state x="178" y="0" key="new project wizard" timestamp="1606225860661">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605880787802" />
+    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1606225860661" />
   </component>
 </project>
