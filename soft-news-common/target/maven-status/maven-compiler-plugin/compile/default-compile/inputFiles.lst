@@ -14,6 +14,7 @@ D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Sid.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\IPv4Utils.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\IdWorker.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\JsonUtil.java
+D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FaceVerifyType.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewLevel.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Code.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
@@ -21,6 +22,7 @@ D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\RedisOp
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceExceptionHandler.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceException.java
 D:\项目库\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DayPrefixRandomCodeStrategy.java
+D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FaceVerifyUtil.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\result\ResponseStatusEnum.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\enums\UserStatus.java
 D:\项目库\soft-news\soft-news-common\src\main\java\com\soft1851\utils\SmsUtil.java

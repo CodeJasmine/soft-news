@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @date 2020/11/23 23:10
  */
 @Component
-public class GridConfig {
+public class GridFsConfig {
     @Value("${spring.data.mongodb.database}")
     private String mongodb;
 

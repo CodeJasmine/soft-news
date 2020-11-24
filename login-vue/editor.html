@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="box">
+      <div class="header"></div>
+      <div class="content"></div>
+      <div class="footer">
+        <div class="footer_button">返回</div>
+        <div class="footer_button">预览</div>
+        <div class="footer_button">定时发布</div>
+        <div class="footer_button">发布文章</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #d5d6d7;
+    }
+    #box {
+      width: auto;
+      height: 1010px;
+      margin: 10px 15px;
+      border: 1 px solid #d5d6d7;
+      border-radius: 10px;
+      background-color: #f6f6f6;
+    }
+    .header {
+      height: 55px;
+      border-radius: 10px 10px 0 0;
+      background-color: #ffffff;
+    }
+    .content {
+      width: 900px;
+      height: 850px;
+      margin: 15px auto;
+      padding: 15px 30px;
+      background-color: #ffffff;
+    }
+    .footer {
+      height: 60px;
+    }
+    .footer_button {
+      display: inline-block;
+      width: 60px;
+      height: 40px;
+      background-color: #f4f4f4;
+      border: 1 px solid gray;
+    }
+  </style>
+</html>
