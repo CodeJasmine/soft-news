@@ -1,9 +1,16 @@
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\AdminLoginBO.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\NewAdminBO.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Fans.java
-D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\AdminUser.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\RegistLoginBO.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\validate\CheckUrl.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Category.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\mo\FriendLinkMO.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\AdminUser.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\Article.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\NewArticleBO.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\SaveFriendLinkBO.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\vo\AppUserVO.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\AppUser.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\vo\UserAccountInfoVO.java
+D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\validate\CheckUrlValidate.java
 D:\项目库\soft-news\soft-news-model\src\main\java\com\soft1851\pojo\bo\UpdateUserInfoBO.java
